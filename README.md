@@ -6,5 +6,7 @@ Web version available on https://tomm1996.github.io/three-demo
 
 Movement via WASD and Spacebar.
 
+Note: Terrain Generation happens on initial load, so to see different terrains just reload the page.
+
 Note: Home cooked collision detection is off sometimes, so you might clip through terrain here and there. 
 As they say, the spirit is willing, but the flesh is weak.

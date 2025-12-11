@@ -1,7 +1,7 @@
 import BaseClass from './BaseClass.js';
 import Player from './Player.js';
 import Terrain from './Terrain.js';
-import '../../node_modules/three/examples/js/objects/Reflector.js';
+import './helpers/three/examples/js/objects/Reflector.js';
 export default class World extends BaseClass {
     worldObjects = {};
     constructor () {

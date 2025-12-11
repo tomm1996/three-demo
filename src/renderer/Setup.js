@@ -1,5 +1,5 @@
-import '../../node_modules/three/build/three.js';
-import '../../node_modules/three/examples/js/controls/PointerLockControls.js';
+import './helpers/three/build/three.js';
+import './helpers/three/examples/js/controls/PointerLockControls.js';
 
 export default class Setup {
     constructor () {

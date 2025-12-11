@@ -1,5 +1,5 @@
 import BaseClass from "./BaseClass.js"
-import "../../node_modules/bezier-easing/dist/bezier-easing.min.js";
+import "./helpers/bezier-easing/dist/bezier-easing.min.js";
 
 export default class Player extends BaseClass {
     CONTROLS = {

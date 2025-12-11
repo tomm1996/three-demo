@@ -1,0 +1,31 @@
+{
+  "name": "labyrush",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron . --debug",
+    "build": "electron-packager . labyrush --platform=win32 --arch=x64 --electron-version=11.2.2",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "electron-webpack dev"
+  },
+  "electronWebpack": {
+    "renderer": {
+      "webpackConfig": "webpack.renderer.config.js"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.2.2",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {
+    "bezier-easing": "^2.1.0",
+    "electron-builder": "^22.10.5",
+    "electron-reload": "^1.5.0",
+    "http-server": "^14.1.1",
+    "three": "^0.128.0"
+  }
+}
